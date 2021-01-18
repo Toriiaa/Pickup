@@ -43,19 +43,19 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">HOME </a>
+                    <a class="nav-link" href="index.html">HOME </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#about-section">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">TESTIMONIALS</a>
+                    <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">CONTACT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">DOWNLOAD THE APP</a>
+                    <a class="nav-link" href="#download-section">DOWNLOAD THE APP</a>
                   </li>
                 </ul>
               </div>
@@ -65,7 +65,7 @@
       </header>
     </div>
     <main class="">
-      <section class="home-section p-md-4 p-sm-auto">
+      <section style="height: auto;" class="home-section p-md-4 p-sm-auto ">
         <div class="row container">
           <div class="col-md-6 col-sm-12">
             <h3 class="text-center">APPs are loading</h3>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </section>
-      <section class="About-section p-4">
+      <section id="about-section" class="About-section p-4">
         <div class="row">
           <div class="col-md-6 col-sm-12">
             <img src="" alt="" />
@@ -149,7 +149,7 @@
           </div>
         </div>
       </section>
-      <section class="screenshots p-4">
+      <section id="screenshots" class="screenshots p-4">
         <div>
           <h3 class="text-center">App Screenshots</h3>
           <p class="text-center">
@@ -177,11 +177,12 @@
       </section>
       <section
         style="height: auto"
+        id="features"
         class="features p-md-5 p-sm-auto m-md-5 m-sm-auto"
       >
         <div class="d-flex">
           <div class="row justify-content-around">
-            <div style="background-color: rgba(6, 6, 95, 0.849); color: white;" class="col-md-3 col-sm-12 m-2 success p-4 card">
+            <div style="background-color: rgba(6, 6, 95, 0.849); color: white;" class="col-md-3 col-sm-12 m-1 success p-4 card">
               <div class="">
                 <h3 class="text-center">Apps features</h3>
                 <p>
@@ -201,7 +202,7 @@
             </div>
             <div style="background-color: rgba(6, 6, 95, 0.849); color: white;" class="col-md-3 col-sm-12 card m-1 success p-4">
               <div>
-                <h3>Apps features</h3>
+                <h3 class="text-center">Apps features</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Rerum, nemo.
@@ -210,7 +211,7 @@
             </div>
             <div style="background-color: rgba(6, 6, 95, 0.849); color: white;" class="col-md-3 col-sm-12 card m-1 success p-4">
               <div>
-                <h3>Apps features</h3>
+                <h3 class="text-center">Apps features</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Rerum, nemo.
@@ -219,16 +220,16 @@
             </div>
             <div style="background-color: rgba(6, 6, 95, 0.849); color: white;" class="col-md-3 col-sm-12 card m-1 success p-4">
               <div>
-                <h3>Apps features</h3>
+                <h3 class="text-center">Apps features</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Rerum, nemo.
                 </p>
               </div>
             </div>
-            <div style="background-color: rgba(6, 6, 95, 0.849); color: white;" class="col-md-3 col-sm-12 card m-2 success p-4">
+            <div style="background-color: rgba(6, 6, 95, 0.849); color: white;" class="col-md-3 col-sm-12 card m-1 success p-4">
               <div>
-                <h3>Apps features</h3>
+                <h3 class="text-center">Apps features</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Rerum, nemo.
@@ -238,7 +239,7 @@
           </div>
         </div>
       </section>
-      <section class="testimonials mb-md-4 mb-sm-auto">
+      <section id="testimonials" class="testimonials mb-md-4 mb-sm-auto">
         <div>
           <div id="demo" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -307,20 +308,21 @@
           </div>
         </div>
       </section>
-      <footer style="height: auto">
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
+      <footer id="download-section" style="height: auto">
+        <div class="row container">
+          <div class="col-md-6 col-sm-12">
             <div class="logo">
-              <img src="" alt="" />
+              <a href="index.html">
+              <img style="width:20%" src="images/logo(1).jpg" alt="" /></a>
             </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
               facilis vel rem ratione, porro vitae.
             </p>
-            <a href="#" class="btn "><img style="width: 50%;" src="images/google png.png" alt=""></a>
-            <a href="#" class="btn btn-primary"><i></i></a>
+            <a style="display: inline;" href="#" class="btn "><img style="width: 30%;" src="images/640px-Google_Play_Store_badge_EN.svg.png" alt=""></a>
+            <a style="display: inline;" href="#" class="btn"> <img style="width: 30%;" src="images/ios download.png" alt=""></a>
           </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-3 col-sm-12">
             <ul>
               <li>Home</li>
               <li>About</li>
@@ -329,7 +331,7 @@
               <li>Download the App</li>
             </ul>
           </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-3 col-sm-12">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed
               quam sequi adipisci qui nemo!
