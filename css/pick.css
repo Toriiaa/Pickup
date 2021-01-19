@@ -2,9 +2,24 @@
   width: 400px;
   height: 400px;
 }
+/* .nav-item{
+    padding: 20px;
+} */
 .home-section {
   /* background-color: rgba(6, 6, 95, 0.849);
   color: white; */
+}
+.navbar-nav{
+    
+    padding: 0;
+}
+.nav-item{
+    
+    padding: 17px;
+
+}
+.navbar-brand img{
+    width:90px;
 }
 h2,
 h3,
@@ -52,4 +67,9 @@ footer{
     /* background-color: rgba(6, 6, 95, 0.849);
     color: white; */
   }
-}
+  @media screen and (max-width: 700px) {
+    .navbar-brand img{
+        width: 100px;
+    }
+
+  }
